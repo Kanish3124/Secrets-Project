@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime&display=swap');
+
+body {
+  background-color: #f4f4f4; /* Light grey background for all pages */
+  font-family: 'Courier Prime', monospace;
+  margin: 0;
+  padding: 0;
+  color: black; /* Black text for better contrast */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, .display-3, .display-4 {
+  font-family: 'Special Elite', cursive;
+  color: black; /* Black headings for consistency */
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: black; /* Dark links for readability */
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.jumbotron {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #d3d3d3, #e0e0e0); /* Subtle gradient for jumbotron */
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.secret-text {
+  font-family: 'Special Elite', cursive;
+  margin: 30px 0;
+  font-size: 2.2rem;
+  color: black;
+  background: #f4f4f4; /* Subtle light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 0 25px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+}
+
+
+
+button, .btn {
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-dark {
+  background: #f4f4f4; /* Light button for contrast */
+  color: black;
+  border: 1px solid #cccccc;
+}
+
+.btn-dark:hover {
+  background: #e0e0e0;
+}
+
+.btn-light {
+  background: #ffffff; /* Lighter button */
+  color: black;
+  border: 1px solid #cccccc;
+}
+
+.btn-light:hover {
+  background: #f1f1f1;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: #ffffff; /* White background for cards */
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+input.form-control {
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-size: 1rem;
+  background: #ffffff; /* White background for input fields */
+  color: black;
+  transition: border 0.3s ease;
+}
+
+input.form-control:focus {
+  outline: none;
+  border: 2px solid #0984e3; /* Blue focus border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-block {
+  color: black !important;
+  background: #ffffff; /* Lighter green for Google button */
+  border: 1px solid black;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+a.btn-block:hover {
+  background: #ffffff;
+}
+
+#footer {
+  background: transparent;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  margin-top: auto;
+  font-size: 1rem;
+}
